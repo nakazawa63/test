@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+img{
+  width: 100%;
+}
+body{
+  color: #333333;
+  font-family: 'Noto Sans''Noto Sans JP', serif;
+}
+ul{
+  list-style: none;
+}
+li{
+  font-size: 14px;
+}
+a{
+  color: inherit;
+  font-size: 14px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.subtext{
+  font-size: 14px;
+}
+.boldtext{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ヘッダー */
+
+.logo{
+  width: 145px;
+  margin: 20px 0;
+}
+.globalnavigation{
+  height: 41px;
+  background-color: #333333;
+  margin-bottom: 39px;
+}
+.header__list{
+  width: 479px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+/* ピックアップ */
+
+.post__pickup_area{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 77px;
+}
+.post__pickup{
+  width: 31%;
+}
+.post__pickup_text{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 21px;
+}
+.readmore{
+  text-align: center;
+}
+
+/* 投稿 */
+
+.post__area{
+  width: 65%;
+  float: left;
+}
+.post{
+  padding-bottom: 87px;
+}
+.post__title{
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 26px;
+}
+.post__time_category{
+  width: 166px;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.post__image{
+  padding-bottom: 13px;
+}
+.post__text{
+  padding-bottom: 33px;
+}
+
+/* サイドメニュー */
+
+.article__side{
+  width: 30%;
+  float: right;
+}
+.article__side--profile{
+  margin-bottom: 57px;
+}
+.profile__image{
+  text-align: center;
+  padding-bottom: 35px;
+}
+.profile__image img{
+  width: 130px;
+  border-radius: 50%;
+}
+.profile .boldtext{
+  text-align: center;
+  padding-bottom: 37px;
+}
+.article__side--ranking{
+  margin-bottom: 35px;
+}
+.ranking .boldtext{
+  text-align: center;
+  padding-bottom: 34px;
+}
+.ranking__post{
+  padding-bottom: 31px;
+}
+.article__side--archive{
+  margin-bottom: 140px;
+}
+.archive .boldtext{
+  text-align: center;
+  padding-bottom: 34px;
+}
+.archive__list{
+  border-bottom: solid 1px #333333;;
+}
+.archive__list li{
+  padding: 23px 0;
+  border-top: solid 1px #333333;
+} 
+
+/* フッター */
+
+.footer{
+  clear: both;
+  background-color: #F7F7F7;
+}
+.footer__information{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+  padding-bottom: 64px;
+}
+.footer__information .boldtext{
+  padding-bottom: 34px;
+}
+.footer__about{
+  width: 30%;
+}
+.footer__about_list li{
+  padding-top: 12px;
+}
+.footer__menu{
+  width: 30%;
+}
+.footer__menu_list{
+  border-bottom: solid 1px #333333;;
+}
+.footer__menu_list li{
+  padding: 19px 5%;
+  border-top: solid 1px #333333;
+} 
+.twitter{
+  width: 30%;
+}
+.copy{
+  text-align: center;
+}
